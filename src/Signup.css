@@ -1,0 +1,98 @@
+.signup-main {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #a29bfe, #74b9ff, #55efc4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.signup-section {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 3rem 2.5rem;
+  width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+}
+
+.signup-header .signup-icon {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.signup-header h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.signup-header p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 2rem;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+}
+
+.input-box .icon {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.input-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #fff;
+  font-size: 14px;
+}
+
+.input-box input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.btn {
+  background: #00b894;
+  border: none;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #019875;
+}
+
+.switch-link {
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+.switch-link a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.switch-link a:hover {
+  text-decoration: underline;
+}
